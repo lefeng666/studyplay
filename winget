@@ -1,0 +1,6 @@
+windows 
+
+winget upgrade --all --include-unknown --silent
+
+
+winget upgrade --all --include-unknown --silent 的作用是：在后台静默升级系统中所有可更新的应用程序（包含 --all），同时强制升级那些无法正常读取当前版本号的“未知版本”应用（包含 --include-unknown），且在安装过程中不显示任何图形界面或弹出窗口（包含 -h / --silent）
