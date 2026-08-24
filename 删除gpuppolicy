@@ -1,0 +1,5 @@
+cd c:\windows\system32
+
+rmdir grouppolicy /s /q 
+
+gpupdate /force
